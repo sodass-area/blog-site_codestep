@@ -1,0 +1,31 @@
+$breakpoints: (
+  "mobile": "screen and (max-width: 900px)",
+) !default;
+
+$colorBK: #000;
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+/* ============================
+body
+============================== */
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  color: $colorBK;
+  background: #f0f0f0;
+  font-size: 14px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1000px;
+  padding: 0 3%;
+}
