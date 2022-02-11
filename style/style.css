@@ -1,0 +1,20 @@
+/* ============================
+body
+============================== */
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  color: #000;
+  background: #f0f0f0;
+  font-size: 14px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1000px;
+  padding: 0 3%;
+}
+/*# sourceMappingURL=style.css.map */
