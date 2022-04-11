@@ -4,11 +4,148 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/reset.css">
-  
+  <title>Blog</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
+  <header id="top-header" class="top-header">
+    <div class="top-header-inner_top">
+      <h1 class="header-logo wrapper"><a href="#"><img src="img/logo.svg" alt="Travel Blog"></a></h1>
+    </div>
+    <nav class="top-header-inner_bottom header-nav">
+      <ul class="header-list wrapper">
+        <li class="header-list__item"><a href="#">NEW</a></li>
+        <li class="header-list__item"><a href="#">COLUMN</a></li>
+        <li class="header-list__item"><a href="#">SERIES</a></li>
+        <li class="header-list__item"><a href="#">Q&A</a></li>
+        <li class="header-list__item"><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="pickup-section">
+    <ul class="pickup-list">
+      <li class="pickup-list__item">
+        <img src="img/pickup1.jpg" alt="pickup1画像" class="pickup-content__img">
+        <h3 class="pickup-content__headline">タイトルテキストテキストテキストテキストテキストテキスト</h3>
+        <a href="#" class="pickup-content__link">READ MORE</a>
+      </li>
+      <li class="pickup-list__item">
+        <img src="img/pickup2.jpg" alt="pickup2画像" class="pickup-content__img">
+        <h3 class="pickup-content__headline">タイトルテキストテキストテキストテキストテキストテキスト</h3>
+        <a href="#" class="pickup-content__link">READ MORE</a>
+      </li>
+      <li class="pickup-list__item">
+        <img src="img/pickup3.jpg" alt="pickup3画像" class="pickup-content__img">
+        <h3 class="pickup-content__headline">タイトルテキストテキストテキストテキストテキストテキスト</h3>
+        <a href="#" class="pickup-content__link">READ MORE</a>
+      </li>
+    </ul>
+  </section>
+  <main>
+    <article class="recent-content">
+      <h2 class="recent-content__headline">タイトルテキストテキストテキストテキストテキスト</h2>
+      <div class="recent-content__subsection">
+        <p class="recent-content__date"><time>2020/01/01</time></p>
+        <p class="recent-content__category">カテゴリ１</p>
+      </div>
+      <img src="img/main1.jpg" alt="recent1画像" class="recent-content__img">
+      <p class="recent-content__text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      <a href="#" class="recent-content__link">READ MORE</a>
+    </article>
+    <article class="recent-content">
+      <h2 class="recent-content__headline">タイトルテキストテキストテキストテキストテキスト</h2>
+      <div class="recent-content__subsection">
+        <p class="recent-content__date"><time>2020/01/01</time></p>
+        <p class="recent-content__category">カテゴリ１</p>
+      </div>
+      <img src="img/main2.jpg" alt="recent2画像" class="recent-content__img">
+      <p class="recent-content-text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      <a href="#" class="recent-content__link">READ MORE</a>
+    </article>
+    <article class="recent-content">
+      <h2 class="recent-content__headline">タイトルテキストテキストテキストテキストテキスト</h2>
+      <div class="recent-content__subsection">
+        <p class="recent-content__date"><time>2020/01/01</time></p>
+        <p class="recent-content__category">カテゴリ１</p>
+      </div>
+      <img src="img/main3.jpg" alt="recent3画像" class="recent-content__img">
+      <p class="recent-content__text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      <a href="#" class="recent-content__link">READ MORE</a>
+    </article>
+  </main>
+  <aside>
+    <section class="profile-section">
+      <img src="img/main1.jpg" alt="プロフィール画像" class="profile-section__img">
+      <h3 class="profile-section__headline">NAME NAME</h3>
+      <p class="profile-section__text">プロフィールテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </section>
+    <section class="ranking-section">
+      <h3 class="ranking-section__headline">RANKING</h3>
+      <ul class="ranking-contents-list">
+        <li class="ranking-contents-list__item">
+          <img src="img/ranking1.jpg" alt="ranking1画像" class="ranking-content__img">
+          <h4 class="ranking-content__headline">タイトルテキストテキストテキストテキストテキストテキスト</h4>
+        </li>
+        <li class="ranking-contents-list__item">
+          <img src="img/ranking2.jpg" alt="ranking2画像" class="ranking-content__img">
+          <h4 class="ranking-content__headline">タイトルテキストテキストテキストテキストテキストテキスト</h4>
+        </li>
+        <li class="ranking-contents-list__item">
+          <img src="img/ranking3.jpg" alt="ranking3画像" class="ranking-content__img">
+          <h4 class="ranking-content__headline">タイトルテキストテキストテキストテキストテキストテキスト</h4>
+        </li>
+      </ul>
+    </section>
+    <section class="archive-section">
+      <ul class="archive-list">
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+        <li class="archive-list__item"><a href="#">XXXX年XX月(XX)</a></li>
+      </ul>
+    </section>
+  </aside>
+  <footer id="top-footer" class="top-footer">
+    <div class="top-footer-section-container">
+      <section class="top-footer-section">
+        <h3 class="top-footer-section__headline">About</h3>
+        <p class="top-footer-section__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <ul class="footer-about-list">
+          <li class="footer-about-list__item">プロフィール詳細</li>
+          <li class="footer-about-list__item">お仕事の依頼</li>
+          <li class="footer-about-list__item">お問い合わせ</li>
+        </ul>
+      </section>
+      <section class="top-footer-section">
+        <h3 class="top-footer-section__headline">Menu</h3>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-list__item"></li>
+          <li class="footer-menu-list__item"></li>
+          <li class="footer-menu-list__item"></li>
+          <li class="footer-menu-list__item"></li>
+          <li class="footer-menu-list__item"></li>
+        </ul>
+      </section>
+      <section class="top-footer-section">
+        <h3 class="top-footer-section__headline">Twitter</h3>
+        <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">名前調べてもらう時、<br>「分かりにくっ！」<br><br>というお言葉をいただいちゃったので、改名しました。</p>&mdash; タツロー (@ta26boy) <a href="https://twitter.com/ta26boy/status/1297500324127596544?ref_src=twsrc%5Etfw">August 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </section>
+    </div>
+    <p class="top-footer-copy">&copy;Travel & Blog</p>
+  </footer>
 </body>
 </html>
